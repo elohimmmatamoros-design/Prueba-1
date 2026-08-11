@@ -1,0 +1,274 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #181818;
+}
+
+p {
+    color: #777;
+    line-height: 1.55;
+}
+
+.barra-navegacion {
+    min-height: 64px;
+    padding: 12px 0;
+    background-color: white;
+}
+
+.barra-navegacion .container {
+    position: relative;
+}
+
+.marca {
+    color: #222;
+    font-size: 16px;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.boton-iniciar {
+    position: absolute;
+    top: 0;
+    right: 12px;
+}
+
+.btn-primary {
+    background-color: #087ff5;
+    border-color: #087ff5;
+}
+
+#portada {
+    height: 520px;
+    background-image: linear-gradient(rgba(29, 65, 105, 0.55), rgba(29, 65, 105, 0.55)), url("../img/mar.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+}
+
+i{
+    font-size:40px;
+}
+.portada-contenido {
+    padding-top: 190px;
+}
+
+#portada h1 {
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+    margin: 0;
+}
+
+#servicios {
+    padding: 95px 0;
+    background-color: #fafbfc;
+}
+
+.lista-servicios {
+    font-size: 0;
+}
+
+.servicio {
+    width: 33.333%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 55px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.servicio h2 {
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.servicio p {
+    font-size: 15px;
+    margin: 0;
+}
+
+.texto-informacion,
+.imagen-informacion {
+    width: 50%;
+    height: 440px;
+    min-height: 440px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+.bloque-informacion {
+    width: 100%;
+    font-size: 0;
+}
+
+.texto-informacion {
+    padding: 120px 8% 0;
+    background-color: white;
+}
+
+.texto-informacion > div {
+    display: block;
+}
+
+.texto-informacion h2 {
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.texto-informacion p {
+    font-size: 15px;
+    max-width: 560px;
+    margin: 0;
+}
+
+.imagen-informacion img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#suscribir {
+    padding: 95px 0;
+    background-image: linear-gradient(rgba(36, 73, 113, 0.65), rgba(36, 73, 113, 0.65)), url("../img/mar.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.caja-suscripcion {
+    max-width: 600px;
+    margin: auto;
+    padding: 10px 0 20px;
+    text-align: center;
+    color: white;
+    background-color: rgba(139, 161, 205, 0.55);
+}
+
+.caja-suscripcion h2 {
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+
+.caja-suscripcion p,
+.caja-suscripcion label {
+    color: white;
+    font-size: 12px;
+}
+
+.caja-suscripcion form {
+    margin-top: 45px;
+}
+
+.caja-suscripcion label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.caja-suscripcion input {
+    border: 0;
+    border-radius: 4px;
+    height: 47px;
+}
+
+.caja-suscripcion button {
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.mailchimp {
+    color: #111;
+    font-size: 13px;
+    line-height: 11px;
+    margin-top: 5px;
+}
+
+footer {
+    padding: 55px 0;
+    background-color: white;
+}
+
+footer .container {
+    position: relative;
+}
+
+footer p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.redes {
+    position: absolute;
+    top: -8px;
+    right: 12px;
+}
+
+.redes a {
+    color: #087ff5;
+    font-size: 23px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+#suscribir h2{
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    #portada {
+        height: 380px;
+    }
+
+    .portada-contenido {
+        padding-top: 135px;
+    }
+
+    #portada h1 {
+        font-size: 31px;
+    }
+
+    #servicios {
+        padding: 60px 0 25px;
+    }
+
+    .servicio {
+        width: 100%;
+        display: block;
+        padding: 0 35px;
+        margin-bottom: 50px;
+    }
+
+    .bloque-informacion {
+        display: block;
+    }
+
+    .texto-informacion {
+        width: 100%;
+        display: block;
+        min-height: 320px;
+        height: 320px;
+        padding: 70px 30px 0;
+    }
+
+    .imagen-informacion {
+        width: 100%;
+        display: block;
+        height: 320px;
+        min-height: 320px;
+    }
+
+    #suscribir {
+        padding: 60px 15px;
+    }
+
+    .caja-suscripcion {
+        padding: 25px 15px;
+    }
+
+    footer {
+        padding: 35px 0;
+    }
+}
