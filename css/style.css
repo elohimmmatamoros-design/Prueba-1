@@ -39,7 +39,7 @@ p {
 
 #portada {
     height: 520px;
-    background-image: linear-gradient(rgba(29, 65, 105, 0.55), rgba(29, 65, 105, 0.55)), url("../img/mar.jpg");
+    background-image: url("../img/mar.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -109,7 +109,7 @@ i{
     background-color: white;
 }
 
-.texto-informacion > div {
+.texto-informacion  div {
     display: block;
 }
 
@@ -133,7 +133,7 @@ i{
 
 #suscribir {
     padding: 95px 0;
-    background-image: linear-gradient(rgba(36, 73, 113, 0.65), rgba(36, 73, 113, 0.65)), url("../img/mar.jpg");
+    background-image: url("../img/mar.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -145,45 +145,6 @@ i{
     text-align: center;
     color: white;
     background-color: rgba(139, 161, 205, 0.55);
-}
-
-.caja-suscripcion h2 {
-    font-size: 27px;
-    font-weight: bold;
-    margin-bottom: 48px;
-}
-
-.caja-suscripcion p,
-.caja-suscripcion label {
-    color: white;
-    font-size: 12px;
-}
-
-.caja-suscripcion form {
-    margin-top: 45px;
-}
-
-.caja-suscripcion label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-.caja-suscripcion input {
-    border: 0;
-    border-radius: 4px;
-    height: 47px;
-}
-
-.caja-suscripcion button {
-    margin-top: 20px;
-    font-size: 13px;
-}
-
-.mailchimp {
-    color: #111;
-    font-size: 13px;
-    line-height: 11px;
-    margin-top: 5px;
 }
 
 footer {
